@@ -1,0 +1,61 @@
+body {
+	font-family: 'Poppins', Arial, sans-serif;
+	color: #333333;
+	padding-bottom: 40px;
+	background-color: #efefef;
+}
+
+.container {
+	width: 960px;
+	max-width: 90%;
+	margin: auto;
+	background-image: url(http://api.thumbr.it/whitenoise-361x370.png?background=ffffffff&noise=d4d4d4&density=18&opacity=37);
+	background-color: #ffffff;
+	padding: 20px;
+	border-radius: 5px;
+	margin-top: 50px;
+	box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
+}
+
+/* Start Header */
+
+header {
+	text-align: center;
+}
+
+header,
+main .employment-history {
+	border-bottom: 3px solid #333333;
+}
+
+header h1 {
+	font-weight: 800;
+}
+
+header p a {
+	color: #333333;
+	text-decoration: none;
+}
+
+header p i {
+	padding-right: 5px;
+}
+
+header p a:hover {
+	text-decoration: underline;
+}
+
+/* Start Main */
+
+main table {
+	width: 100%;
+}
+
+main table tr {
+	display: flex;
+	justify-content: space-between;
+}
+
+main .education table tr td:first-of-type {
+	font-weight: bold;
+}
